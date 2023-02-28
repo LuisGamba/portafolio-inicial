@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 .container-header {
-    background: rgb(0, 0, 0);
+    background: rgb(100, 98, 98);
     position: fixed;
     width: 100%;
     top: 0;
@@ -99,4 +99,227 @@ html {
 }
 .inicio .container-banner .redes a:hover{
     background-color: aquamarine;
+}
+.sobremi{
+    background-color: rgb(100, 98, 98);
+    color: aliceblue;
+    padding: 50px 20px;
+}
+.sobremi .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family:'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.sobremi .container-section p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .container-section p span{
+    color: aquamarine;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: aquamarine;
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: rgba(0, 255, 174, 0.462);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .container-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .container-intereses .intereses{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(33, 30, 30);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.sobremi .fila .col .container-intereses .intereses:hover{
+    background-color: rgb(53, 201, 152);
+}
+.sobremi .fila .col .container-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: aliceblue;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(53, 201, 152);
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+.Skills{
+    background-color:  rgb(100, 98, 98);
+    color: aliceblue;
+    padding: 50px 20px;
+}
+.Skills .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.Skills h2{
+    font-size: 48px;
+       font-family: 'Righteous';
+       text-align: center;
+       padding: 20px 0;
+}
+.Skills .fila{
+    display: flex;
+}
+.Skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.Skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.Skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.Skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 30px;
+}
+.Skills .skill .progreso{
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.Skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(127, 255, 212, 0.878);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+.Skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.Skills .skill .coreldraw{
+    width: 0%;
+    animation: 2s coreldraw forwards;
+}
+@keyframes coreldraw{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.Skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.Skills .skill .trabajoenequipo{
+    width: 0%;
+    animation: 2s trabajoenequipo forwards;
+}
+@keyframes trabajoenequipo{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}.Skills .skill .Creatividad{
+    width: 0%;
+    animation: 2s Creatividad forwards;
+}
+@keyframes Creatividad{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}.Skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.curriculum{
+    background-color: rgb(100, 98, 98);
+    color: aliceblue;
+    padding: 50px 20px;
+}
+.curriculum .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.curriculum .fila{
+    display: flex;
 }

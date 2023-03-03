@@ -12,7 +12,7 @@
  }
 
  .container-header {
-     background: rgb(100, 98, 98);
+     background: rgb(89, 91, 96);
      position: fixed;
      width: 100%;
      top: 0;
@@ -30,7 +30,8 @@
 
  .container-header header .logo a {
      font-family: 'Righteous';
-     color: aquamarine;
+     font-size: 36px;
+     color: rgb(254, 234, 13);
      text-decoration: none;
  }
 
@@ -49,11 +50,11 @@
  }
 
  .container-header header nav ul li a:hover {
-     color: aquamarine;
+     color: rgb(254, 234, 13);
  }
 
  .nav-responsive {
-     background-color: aquamarine;
+     background-color: rgb(254, 234, 13);
      color: rgb(253, 253, 253);
      padding: 5px 10px;
      border-radius: 5px;
@@ -81,7 +82,7 @@
 
  .inicio .container-banner img {
      margin-top: 40px;
-     border: 10px solid aquamarine;
+     border: 10px solid rgb(254, 234, 13);
      display: block;
      width: 80%;
      margin: auto;
@@ -114,11 +115,11 @@
  }
 
  .inicio .container-banner .redes a:hover {
-     background-color: aquamarine;
+     background-color: rgba(215, 206, 96, 0.842);
  }
 
  .sobremi {
-     background-color: rgb(100, 98, 98);
+     background-color: rgb(89, 91, 96);
      color: aliceblue;
      padding: 50px 20px;
  }
@@ -142,7 +143,7 @@
  }
 
  .sobremi .container-section p span {
-     color: aquamarine;
+     color: rgb(254, 234, 13);
      font-weight: bold;
  }
 
@@ -170,12 +171,12 @@
 
  .sobremi .fila .col ul li strong {
      display: inline-block;
-     color: aquamarine;
+     color: rgb(254, 234, 13);
      width: 130px;
  }
 
  .sobremi .fila .col ul li span {
-     background-color: rgba(0, 255, 174, 0.462);
+     background-color: rgba(215, 206, 96, 0.842);
      padding: 3px;
      font-weight: bold;
      border-radius: 5px;
@@ -189,7 +190,7 @@
  .sobremi .fila .col .container-intereses .intereses {
      width: 100px;
      height: 100px;
-     background-color: rgb(33, 30, 30);
+     background-color: rgb(89, 91, 96);
      border-radius: 10px;
      margin: 0 15px 15px 0;
      display: flex;
@@ -200,7 +201,7 @@
  }
 
  .sobremi .fila .col .container-intereses .intereses:hover {
-     background-color: rgb(53, 201, 152);
+     background-color: rgba(215, 206, 96, 0.842);
  }
 
  .sobremi .fila .col .container-intereses .intereses i {
@@ -228,7 +229,7 @@
      left: 0;
      width: 0;
      height: 100%;
-     background-color: rgb(53, 201, 152);
+     background-color: rgba(215, 206, 96, 0.842);
      z-index: -1;
      transition: 1s;
  }
@@ -238,8 +239,8 @@
  }
 
  .Skills {
-     background-color: rgb(100, 98, 98);
-     color: aliceblue;
+     background-color: rgb(89, 91, 96);
+     color: rgb(255, 255, 255);
      padding: 50px 20px;
  }
 
@@ -285,7 +286,7 @@
  }
 
  .Skills .skill .progreso {
-     background-color: aquamarine;
+     background-color:rgb(254, 234, 13);
      position: absolute;
      top: 0;
      left: 0;
@@ -296,7 +297,7 @@
      position: absolute;
      height: 40px;
      width: 40px;
-     background-color: rgba(127, 255, 212, 0.878);
+     background-color: rgba(215, 206, 96, 0.842);
      border-radius: 50px;
      line-height: 40px;
      text-align: center;
@@ -396,7 +397,7 @@
  }
 
  .curriculum {
-     background-color: rgb(100, 98, 98);
+     background-color: rgb(89, 91, 96);
      color: aliceblue;
      padding: 50px 20px;
  }
@@ -439,7 +440,7 @@
  .curriculum .fila .item {
      padding: 25px;
      margin-bottom: 30px;
-     background-color: rgb(85, 84, 84);
+     background-color: rgb(0, 0, 0);
      position: relative;
  }
 
@@ -449,7 +450,7 @@
  }
 
  .curriculum .fila .item .casa {
-     color: aquamarine;
+     color: rgb(254, 234, 13);
      font-size: 22px;
      font-weight: bold;
      display: block;
@@ -457,7 +458,7 @@
 
  .curriculum .fila .item .fecha {
      display: block;
-     color: aquamarine;
+     color: rgb(254, 234, 13);
      margin-bottom: 10px;
  }
 
@@ -466,18 +467,18 @@
  }
 
  .curriculum .fila .izq {
-     border-right: 2px solid aquamarine;
+     border-right: 2px solid rgb(254, 234, 13);
      margin-right: 20px;
  }
 
  .curriculum .fila .der {
-     border-left: 2px solid aquamarine;
+     border-left: 2px solid rgb(254, 234, 13);
      margin-left: 20px;
  }
 
  .curriculum .fila .item .conector-i{
      height: 2px;
-     background-color: #7fffd4;
+     background-color: rgb(254, 234, 13);
      width: 47px;
      position: absolute;
      top: 50%;
@@ -490,7 +491,7 @@
      height: 10px;
      width: 10px;
      border-radius: 50%;
-     background-color: aquamarine;
+     background-color: rgb(254, 234, 13);
      float: right;
      position: relative;
      bottom: 4px;
@@ -498,7 +499,7 @@
 
  .curriculum .fila .item .conector-d {
      height: 2px;
-     background-color: aquamarine;
+     background-color: rgb(254, 234, 13);
      width: 47px;
      position: absolute;
      top: 50%;
@@ -511,7 +512,7 @@
      height: 10px;
      width: 10px;
      border-radius: 50%;
-     background-color: aquamarine;
+     background-color: rgb(254, 234, 13);
      float: left;
      position: relative;
      bottom: 4px;
@@ -522,7 +523,7 @@
      justify-content: space-between;
  }
  .portafolio {
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(89, 91, 96);
     color: aliceblue;
     padding: 50px 20px;
  }
@@ -629,7 +630,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #7fffd4;
+    background-color: rgba(215, 206, 96, 0.842);
     transition: 1s;
     z-index: -1;
  }
@@ -642,7 +643,7 @@
  .contacto .col .info {
     position: absolute;
     top: 40%;
-    background-color: black;
+    background-color: rgb(89, 91, 96);
     padding: 20px;
     width: 350px;
     left: 50%;
@@ -655,7 +656,7 @@
     margin-bottom: 20px;
  }
  .contacto .col .info ul li i {
-    color: #7fffd4;
+    color: rgb(254, 234, 13);
     display: inline-block;
     margin-right: 20px;
  }
@@ -687,7 +688,7 @@
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #7fffd4;
+    background-color: rgba(215, 206, 96, 0.842);
     color: aliceblue;
     position: absolute;
     left: 50%;
@@ -709,7 +710,7 @@
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: black;
+        background-color: rgb(89, 91, 96);
         width: 180px;
     }
     nav.responsive ul {
@@ -762,3 +763,4 @@
         width: 100%;
     }
  }
+ 

@@ -25,13 +25,14 @@
      margin: auto;
      display: flex;
      justify-content: space-between;
+     align-items: center;
      padding: 15px 20px;
  }
 
  .container-header header .logo a {
      font-family: 'Righteous';
      font-size: 36px;
-     color: rgb(254, 234, 13);
+     color: rgb(255, 234, 0);
      text-decoration: none;
  }
 
@@ -42,7 +43,7 @@
 
  .container-header header nav ul li a {
      text-align: none;
-     color: rgb(255, 255, 255);
+     color: #FFF;
      margin: 0 15px;
      padding: 3px;
      transition: .5s;
@@ -55,7 +56,7 @@
 
  .nav-responsive {
      background-color: rgb(254, 234, 13);
-     color: rgb(253, 253, 253);
+     color: #FFF;
      padding: 5px 10px;
      border-radius: 5px;
      cursor: pointer;
@@ -63,17 +64,17 @@
  }
 
  .inicio {
-     background: linear-gradient(to top, rgb(30, 35, 38, .8), rgb(30, 35, 38, 1)), url(/img/fondo.jpeg)no-repeat center center;
+     background: linear-gradient(to top, rgb(89, 91, 96), rgba(0, 0, 0, 0.507)), url(/img/amarrillo.jpeg)no-repeat center center;
      background-size: cover;
      height: 100vh;
-     color: aliceblue;
+     color: #FFF;
      display: flex;
      align-items: center;
  }
 
  .inicio .container-banner {
      padding: 20px;
-     background-color: black;
+     background-color: rgb(89, 91, 96);
      max-width: 350px;
      margin: auto;
      text-align: center;
@@ -101,10 +102,10 @@
  }
 
  .inicio .container-banner .redes a {
-     color: rgb(255, 255, 255);
+     color: #FFF;
      display: inline-block;
      text-decoration: none;
-     border: 1px solid rgb(255, 255, 255);
+     border: 1px solid #FFF;
      border-radius: 100%;
      width: 42px;
      height: 42px;
@@ -120,7 +121,7 @@
 
  .sobremi {
      background-color: rgb(89, 91, 96);
-     color: aliceblue;
+     color: #FFF;
      padding: 50px 20px;
  }
 
@@ -212,13 +213,13 @@
  .sobremi button {
      cursor: pointer;
      background-color: transparent;
-     border: 2px solid aliceblue;
+     border: 2px solid #FFF;
      width: fit-content;
      display: block;
      margin: 20px auto;
      padding: 10px 22px;
      font-size: 16px;
-     color: aliceblue;
+     color: #FFF;
      position: relative;
      z-index: 10;
  }
@@ -240,7 +241,7 @@
 
  .Skills {
      background-color: rgb(89, 91, 96);
-     color: rgb(255, 255, 255);
+     color: #FFF;
      padding: 50px 20px;
  }
 
@@ -398,7 +399,7 @@
 
  .curriculum {
      background-color: rgb(89, 91, 96);
-     color: aliceblue;
+     color: #FFF;
      padding: 50px 20px;
  }
 
@@ -430,11 +431,11 @@
  }
 
  .curriculum .fila .izquierda {
-     border-right: 2px solid rgb(255, 255, 255);
+     border-right: 2px solid #FFF;
  }
 
  .curriculum .fila .derecha {
-     border-left: 2px solid rgb(255, 255, 255);
+     border-left: 2px solid #FFF;
  }
 
  .curriculum .fila .item {
@@ -524,7 +525,7 @@
  }
  .portafolio {
     background-color: rgb(89, 91, 96);
-    color: aliceblue;
+    color: #FFF;
     padding: 50px 20px;
  }
  .portafolio .container-section{
@@ -580,7 +581,7 @@
  .contacto {
     background-image: url(../img/contact_bg.png);
     background-color: black;
-    color: aliceblue;
+    color: #FFF;
     padding: 50px 0;
  }
  .contacto .container-section {
@@ -608,19 +609,19 @@
     border: none;
     margin-bottom: 20px;
     background-color: black;
-    color: aliceblue;
+    color: #FFF;
     font-size: 18px;
  }
  .contacto button {
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid aliceblue;
+    border: 2px solid #FFF;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: aliceblue;
+    color: #FFF;
     position: relative;
     z-index: 10;
  }
@@ -662,7 +663,7 @@
  }
  footer {
     background-color: black;
-    color: aliceblue;
+    color: #FFF;
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -672,10 +673,10 @@
     margin-bottom: 20px;
  }
  footer .redes a {
-    color: aliceblue;
+    color: #FFF;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid aliceblue;
+    border: 1px solid #FFF;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -689,7 +690,7 @@
     width: 50px;
     height: 50px;
     background-color: rgba(215, 206, 96, 0.842);
-    color: aliceblue;
+    color: #FFF;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -717,7 +718,7 @@
         display: block !important;
     }
     nav.responsive ul li {
-        border-bottom: 1px solid aliceblue;
+        border-bottom: 1px solid #FFF;
         padding: 10px 0;
     }
  }

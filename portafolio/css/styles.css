@@ -64,7 +64,7 @@
  }
 
  .inicio {
-     background: linear-gradient(to top, rgb(89, 91, 96), rgba(0, 0, 0, 0.507)), url(/img/amarrillo.jpeg)no-repeat center center;
+     background: linear-gradient(to top, rgb(89, 91, 96), rgba(0, 0, 0, 0.507)), url(../img/amarrillo.jpeg)no-repeat center center;
      background-size: cover;
      height: 100vh;
      color: #FFF;
@@ -577,6 +577,10 @@
  }
  .portafolio .galeria .proyecto .overlay:hover h3 {
     margin-bottom: 0px;
+ }
+ .portafolio a {
+    color:#FFF;
+    text-decoration: none;
  }
  .contacto {
     background-image: url(../img/contact_bg.png);

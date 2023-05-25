@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5f0f0;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.Juego {
+    background-color: rgba(22, 38, 69, 0.438);
+    margin: 4vw;
+    border-radius: 1%;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 244, 32);
+}
+h3 {
+    text-align: center; 
+    color: aqua;
+}
+.eleccion h3 {
+    display: inline-flexbox;
+    text-align: center;
+}
+.imagenes img{
+    display: flexbox;
+    align-items: center;
+    width: 320px;
+    height: auto;
+}
+.resultados {
+    border-radius: 2vw;
+    margin: 4vw;
+    background-color: rgba(19, 40, 82, 0.63);
+}
+.resultados h2 {
+    text-align: center;
+}

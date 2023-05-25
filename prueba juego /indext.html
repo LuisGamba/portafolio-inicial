@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Piedra, Papel y Tijera</title>
+      <style>
+        button {
+          margin: 10px;
+          padding: 10px 20px;
+          font-size: 18px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Piedra, Papel y Tijera</h1>
+      <p>Elige una opción:</p>
+      <button onclick="play('piedra')">Piedra</button>
+      <button onclick="play('papel')">Papel</button>
+      <button onclick="play('tijera')">Tijera</button>
+    
+      <h2>Resultado:</h2>
+      <p id="result"></p>
+    
+      <h2>Resultados anteriores:</h2>
+      <ul id="history"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
